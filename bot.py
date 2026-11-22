@@ -16,7 +16,7 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('Co robi rambi'):
-        await message.channel.send("Płacze 😂")
+        await message.channel.send("Płaczee 😂")
     elif message.content.startswith('$bye'):
         await message.channel.send("\U0001f642")
     else:
